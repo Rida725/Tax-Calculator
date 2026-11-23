@@ -56,3 +56,14 @@ if __name__ == "__main__":
         "Net Income:",
         round(net_income(annual_income), 2)
     )
+
+    def tax_summary(income):
+
+    income = taxable_income(income)
+
+    return (
+        f"Income: Rs. {income:.2f}\n"
+        f"Tax: Rs. {tax(income):.2f}\n"
+        f"Net Income: Rs. {net_income(income):.2f}"
+    )
+
