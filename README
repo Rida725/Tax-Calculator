@@ -1,0 +1,16 @@
+# Tax Calculator
+
+This is a Python-based Tax Calculator project.
+
+It calculates:
+1. Taxable Income
+2. Estimated Tax
+3. Net Income
+
+Technologies Used:
+- Python
+- Git
+- GitHub
+- Pytest
+- Jenkins
+- Docker
